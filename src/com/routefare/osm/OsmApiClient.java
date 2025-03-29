@@ -1,6 +1,6 @@
 package com.routefare.osm;
 
-import de.westnordost.osmapi.common.OsmConnection;
+import de.westnordost.osmapi.OsmConnection;
 
 public class OsmApiClient {
     public static void testImport() {
