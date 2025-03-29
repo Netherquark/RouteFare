@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Run RouteFare",
+        "request": "launch",
+        "mainClass": "com.routefare.Main",
+        "vmArgs": "-cp libs/osmapi-5.2.jar;bin"
+      }
+    ]
+  }
+  
