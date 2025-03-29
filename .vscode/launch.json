@@ -6,7 +6,7 @@
         "name": "Run RouteFare",
         "request": "launch",
         "mainClass": "com.routefare.Main",
-        "vmArgs": "-cp libs/osmapi-5.2.jar;bin"
+        "vmArgs": "-cp libs/osmapi-5.2-all.jar:bin"
       }
     ]
   }

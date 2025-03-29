@@ -6,7 +6,7 @@
         "type": "shell",
         "command": "javac",
         "args": [
-          "-cp", "libs/osmapi-5.2.jar",
+          "-cp", "libs/osmapi-5.2-all.jar",
           "-d", "bin",
           "src/com/routefare/Main.java",
           "src/com/routefare/osm/OsmApiClient.java",
