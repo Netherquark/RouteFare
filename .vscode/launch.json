@@ -1,13 +1,17 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "type": "java",
-        "name": "Run RouteFare",
-        "request": "launch",
-        "mainClass": "com.routefare.Main",
-        "vmArgs": "-cp libs/osmapi-5.2-all.jar:bin"
-      }
-    ]
-  }
-  
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run RouteFare",
+      "request": "launch",
+      "mainClass": "com.routefare.Main",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "${workspaceFolder}/libs/osmapi-5.2-all.jar"
+      ],
+      "vmArgs": "-XX:+ShowCodeDetailsInExceptionMessages",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
